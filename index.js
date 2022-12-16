@@ -5,3 +5,11 @@ for (let i = 0; i < 256; i++) {
   square.classList.add("square");
   container.append(square);
 }
+
+const squares = document.querySelectorAll(".square");
+
+Array.from(squares).forEach((square) => {
+  square.addEventListener("mouseenter", (e) => {
+    square.classList.add("drawn");
+  });
+});

@@ -20,3 +20,7 @@ body {
 .square {
   aspect-ratio: 1;
 }
+
+.drawn {
+  background-color: #adb2bd;
+}
