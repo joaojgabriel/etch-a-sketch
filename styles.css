@@ -13,8 +13,7 @@ body {
 .container {
   display: grid;
   border: 1px solid black;
-  width: 1200px;
-  grid-template-columns: repeat(16, 1fr);
+  width: 960px;
 }
 
 .square {
@@ -23,4 +22,10 @@ body {
 
 .drawn {
   background-color: #adb2bd;
+}
+
+button {
+  font-size: 20px;
+  padding: 50px;
+  margin: 0 auto;
 }
